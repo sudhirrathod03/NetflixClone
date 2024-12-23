@@ -3,7 +3,9 @@ body{
    font-family: "Montserrat", system-ui;
    color: white;
    background-color: black;
+
 }
+
 
 .main{
     width: 100%;
@@ -37,6 +39,11 @@ body{
     top: 20%;
     left: 32%;
     text-align: center;
+}
+.heading button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
 
 .heading h1{
@@ -100,6 +107,7 @@ body{
 }
 .reasons{
     display: flex;
+    perspective: 500px;
 
 }
 .rtojoin{
@@ -110,6 +118,13 @@ body{
     margin: 20px 20px;
     border-radius: 20px;
 
+}
+.rtojoin:hover{
+    cursor: pointer;
+    /* transform: translateZ(10px); */
+   
+    transform: translateZ(15px);
+    transition: 0.5S;
 }
 .rtojoin h1{
     font-size: 24px;
